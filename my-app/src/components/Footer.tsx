@@ -1,16 +1,16 @@
 import styled from 'styled-components'
 
-export default function Footer() {
+export default function FooterView() {
     return (
-        <Footers>
+        <Footer>
         <P>
           MKS sistemas © Todos os direitos reservados
         </P>
-      </Footers>
+      </Footer>
     )
 }
 
-const Footers = styled.footer`
+const Footer = styled.footer`
   display: flex;
   flex: 1;
   height: 34px;

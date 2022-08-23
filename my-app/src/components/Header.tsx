@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartArrowDown } from '@fortawesome/free-solid-svg-icons'
 
 
-export default function Header() {
+export default function HeaderView() {
     return (
-        <Headers>
+        <Header>
         <Container>
         <Title>MKS</Title>
         <Text>Sistemas</Text>
@@ -14,11 +14,11 @@ export default function Header() {
           <Span className="btn-cart-badge"></Span>
         </Btn>
         </Container>
-      </Headers>
+      </Header>
     )
 }
 
-const Headers = styled.header`
+const Header = styled.header`
   display: flex;
   background: #0F52BA;
   width: 100%;
