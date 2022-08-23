@@ -1,20 +1,5 @@
 
-.btnCartBadge {
-  position: absolute;
-  bottom: 5px;
-  right: 5px;
-  border-radius: 100%;
-  width: 20px;
-  height: 20px;
-  font-size: 12px;
-  display: none;
-  justify-content: center;
-  align-items: center;
-  background: rgb(0, 0, 0);
-  color: #ffffff;
-}
-
-.btnCartBadgeShow {
+.btn-cart-badge-show {
   display: flex;
 }
 
